@@ -1,0 +1,43 @@
+.container {
+    margin: 5% auto;
+    width: 500px;
+    max-width: 100%;
+    background-color: rgb(236, 231, 226);
+    padding: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px groove #fff;
+
+    .text-center{
+        display: flex;
+        justify-content: center;
+    }
+    .fs-1{
+        font-size: 60px;
+    }
+    .fs-3 {
+        font-size: 30px;
+    }
+    .w-100{
+        max-width: 100%;
+        width: 100%;
+        padding: 1% 0;
+        margin-bottom: 2%;
+    }
+    .submit{
+        padding: 1% 0;
+        font-size: 20px;
+        width: 100%;
+        background-color: aqua;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: 1px groove #fff;
+        &:hover{
+            background-color: rgb(25, 167, 167);
+        }
+    }
+    .error {
+        border: 1px groove red;
+    }
+    .success {
+        border: 1px groove  green;
+    }
+}
